@@ -1,29 +1,24 @@
 function Header() {
   return (
-    <header className="bg-gray-900 text-white shadow-lg sticky top-0 z-50">
+    <header>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          
-          {/* Logo */}
-          <div className="flex-shrink-0">
-            <h1 className="text-2xl font-extrabold tracking-tight">Jaseem Khan</h1>
-          </div>
+        <div className="flex justify-center items-center h-16">
 
           {/* Navigation */}
           <nav>
-            <ul className="hidden md:flex space-x-8">
+            <ul className="hidden md:flex space-x-4">
               <li>
                 <a
                   href="#about"
-                  className="text-base font-medium hover:text-gray-300 transition duration-200"
+                  className="px-4 py-2 bg-[#9EA0A2] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
                 >
-                  About Me
+                  About
                 </a>
               </li>
               <li>
                 <a
                   href="#skills"
-                  className="text-base font-medium hover:text-gray-300 transition duration-200"
+                  className="px-4 py-2 bg-[#9EA0A2] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
                 >
                   Skills
                 </a>
@@ -31,15 +26,39 @@ function Header() {
               <li>
                 <a
                   href="#work"
-                  className="text-base font-medium hover:text-gray-300 transition duration-200"
+                  className="px-4 py-2 bg-[#9EA0A2] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
                 >
                   Work Experience
                 </a>
               </li>
               <li>
                 <a
+                  href="#project"
+                  className="px-4 py-2 bg-[#9EA0A2] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
+                >
+                  Project
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#certification"
+                  className="px-4 py-2 bg-[#9EA0A2] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
+                >
+                  Certification
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#achievement"
+                  className="px-4 py-2 bg-[#9EA0A2] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
+                >
+                  Achievement
+                </a>
+              </li>
+              <li>
+                <a
                   href="#blog"
-                  className="text-base font-medium hover:text-gray-300 transition duration-200"
+                  className="px-4 py-2 bg-[#9EA0A2] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
                 >
                   Blog
                 </a>
@@ -51,7 +70,7 @@ function Header() {
           <div className="flex md:hidden">
             <button
               type="button"
-              className="text-gray-300 hover:text-white focus:outline-none"
+              className="text-gray-500 hover:text-gray-800 focus:outline-none"
               aria-label="Open Menu"
             >
               <svg
