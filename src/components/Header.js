@@ -1,67 +1,79 @@
+import React from "react";
+import { NavLink } from "react-router-dom"; // Import NavLink for active link highlighting
+
 function Header() {
   return (
     <header>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-3">
         <div className="flex justify-center items-center h-16">
-
           {/* Navigation */}
           <nav>
             <ul className="hidden md:flex space-x-4">
               <li>
-                <a
-                  href="#about"
-                  className="px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
+              <NavLink
+                  to="/"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "px-4 py-2 bg-gray-800 text-white rounded-md text-base font-medium"
+                      : "px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
+                  }
                 >
                   About
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="#skills"
+                <NavLink
+                  to="/skills"
                   className="px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
+                  activeClassName="bg-white"
                 >
                   Skills
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="#work"
+                <NavLink
+                  to="/work"
                   className="px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
+                  activeClassName="bg-gray-800"
                 >
                   Work Experience
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="#project"
+                <NavLink
+                  to="/project"
                   className="px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
+                  activeClassName="bg-gray-800"
                 >
                   Project
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="#certification"
+                <NavLink
+                  to="/certification"
                   className="px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
+                  activeClassName="bg-gray-800"
                 >
                   Certification
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="#achievement"
+                <NavLink
+                  to="/achievement"
                   className="px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
+                  activeClassName="bg-gray-800"
                 >
                   Achievement
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="#blog"
+                <NavLink
+                  to="/blog"
                   className="px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
+                  activeClassName="bg-gray-800"
                 >
                   Blog
-                </a>
+                </NavLink>
               </li>
             </ul>
           </nav>
