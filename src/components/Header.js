@@ -10,7 +10,7 @@ function Header() {
               <li>
                 <a
                   href="#about"
-                  className="px-4 py-2 bg-[#9EA0A2] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
+                  className="px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
                 >
                   About
                 </a>
@@ -18,7 +18,7 @@ function Header() {
               <li>
                 <a
                   href="#skills"
-                  className="px-4 py-2 bg-[#9EA0A2] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
+                  className="px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
                 >
                   Skills
                 </a>
@@ -26,7 +26,7 @@ function Header() {
               <li>
                 <a
                   href="#work"
-                  className="px-4 py-2 bg-[#9EA0A2] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
+                  className="px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
                 >
                   Work Experience
                 </a>
@@ -34,7 +34,7 @@ function Header() {
               <li>
                 <a
                   href="#project"
-                  className="px-4 py-2 bg-[#9EA0A2] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
+                  className="px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
                 >
                   Project
                 </a>
@@ -42,7 +42,7 @@ function Header() {
               <li>
                 <a
                   href="#certification"
-                  className="px-4 py-2 bg-[#9EA0A2] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
+                  className="px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
                 >
                   Certification
                 </a>
@@ -50,7 +50,7 @@ function Header() {
               <li>
                 <a
                   href="#achievement"
-                  className="px-4 py-2 bg-[#9EA0A2] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
+                  className="px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
                 >
                   Achievement
                 </a>
@@ -58,7 +58,7 @@ function Header() {
               <li>
                 <a
                   href="#blog"
-                  className="px-4 py-2 bg-[#9EA0A2] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
+                  className="px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
                 >
                   Blog
                 </a>
