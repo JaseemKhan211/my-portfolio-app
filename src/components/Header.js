@@ -14,7 +14,7 @@ function Header() {
                   to="/"
                   className={({ isActive }) =>
                     isActive
-                      ? "px-4 py-2 bg-gray-800 text-white rounded-md text-base font-medium"
+                      ? "px-4 py-2 bg-white text-black rounded-md text-base font-medium"
                       : "px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
                   }
                 >
@@ -24,8 +24,11 @@ function Header() {
               <li>
                 <NavLink
                   to="/skills"
-                  className="px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
-                  activeClassName="bg-white"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "px-4 py-2 bg-white text-black rounded-md text-base font-medium"
+                      : "px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
+                  }
                 >
                   Skills
                 </NavLink>

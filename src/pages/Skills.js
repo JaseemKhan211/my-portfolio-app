@@ -1,77 +1,53 @@
-import React, { useState } from "react";
+import React from "react";
 
 function Skills() {
-  const [activeCategory, setActiveCategory] = useState("front-end");
-
-  const skillsContent = {
-    "front-end": [
-      "JavaScript ES6",
-      "Ajax | jQuery (Initial Level)",
-      "React JS (Mid Level)",
-      "HTML5, CSS3, Pug, MaterialUI, Bootstrap & Sweet Alert"
-    ],
-    "back-end": [
-      "SQL | PLSQL",
-      "Oracle APEX",
-      "Oracle Database",
-      "Firebase (Mid Level)",
-      "Node JS | Express JS (Mid Level)",
-      "REST API",
-      "Oracle APEX RESTful API Services",
-      "MongoDB | Mongoose (Mid Level)",
-      "Strong understanding of SQL relational database design",
-      "Strong understanding of PLSQL tables and relationship hierarchy",
-      "Strong understanding of RDBMS, DBMS, and database commands DDL | DML | DCL | TCL | DQL"
-    ],
-    "mobile-dev": [
-      "React Native (Beginner Level)",
-      "Flutter (Beginner Level)"
-    ],
-    "software-arch": [
-      "MVC - Model View Controller",
-      "MVP - Model View Presenter",
-      "MVVM - Model View View Model"
-    ],
-    "tools-services": [
-      "Google Maps, Facebook Authentication",
-      "Firebase - Authentication, Realtime, Firestore & Storage",
-      "Heroku, Now & Firebase Hosting",
-      "Git | GitHub for version control",
-      "Proficient in Figma for UI/UX design and prototyping"
-    ]
-  };
-
   return (
-    <div className="flex space-x-8 mt-8">
-      {/* Navigation */}
-      <div className="w-1/4 bg-gray-100 p-4 rounded-lg">
-        <ul className="space-y-4">
-          {Object.keys(skillsContent).map((category) => (
-            <li
-              key={category}
-              className={`cursor-pointer text-xl font-medium py-2 px-4 rounded-lg transition-all ${
-                activeCategory === category
-                  ? "bg-blue-600 text-white"
-                  : "hover:bg-gray-300"
-              }`}
-              onClick={() => setActiveCategory(category)}
-            >
-              {category.replace("-", " ").toUpperCase()}
-            </li>
-          ))}
-        </ul>
-      </div>
+    <div className="h-screen p-6 bg-[#913e37] text-white">
+      <div className="max-w-5xl mx-auto">
 
-      {/* Skills Content */}
-      <div className="w-3/4 bg-white p-6 rounded-lg shadow-lg">
-        <h2 className="text-3xl font-bold text-gray-800 text-center mb-6">
-          {activeCategory.replace("-", " ").toUpperCase()}
-        </h2>
-        <ul className="list-disc pl-6 space-y-2 text-lg text-gray-700">
-          {skillsContent[activeCategory].map((skill, index) => (
-            <li key={index}>{skill}</li>
-          ))}
-        </ul>
+        {/* Front End Section */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-blue-400">Front End</h2>
+          <ul className="list-disc list-inside space-y-2">
+            <li> React JS | Next JS </li>
+            <li> JavaScript ES6 </li>
+            <li> Ajax | jQuery (Initial Level) </li>
+            <li> HTML5, Pug, CSS3, Tailwind CSS, MaterialUI, Bootstrap </li>
+          </ul>
+        </section>
+
+        {/* Back End Section */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-green-400">Back End</h2>
+          <ul className="list-disc list-inside space-y-2">
+            <li> SQL | PLSQL </li>
+            <li> Oracle APEX | Oracle Database </li>
+            <li> Node JS | Express JS </li>
+            <li> REST Api architecture </li>
+            <li> MongoDB </li>
+          </ul>
+        </section>
+
+        {/* Mobile Development Section */}
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-purple-400">Mobile Development</h2>
+          <ul className="list-disc list-inside space-y-2">
+            <li> React Native (Beginner Level) </li>
+            <li> Flutter (Beginner Level) </li>
+          </ul>
+        </section>
+
+        {/* Tools & Services Section */}
+        <section>
+          <h2 className="text-2xl font-semibold mb-4 text-red-400">Tools & Services</h2>
+          <ul className="list-disc list-inside space-y-2">
+            <li> Google Maps, Places & Geolocation </li>
+            <li> Firebase - Authentication, Realtime, Firestore & Storage </li>
+            <li> Heroku, Firebase, Vercel Hosting </li>
+            <li> GitHub </li>
+            <li> Figma for UI/UX design and prototyping </li>
+          </ul>
+        </section>
       </div>
     </div>
   );
