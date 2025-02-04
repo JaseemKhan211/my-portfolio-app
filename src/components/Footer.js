@@ -1,9 +1,9 @@
 import React from "react";
-import "@fortawesome/fontawesome-free/css/all.min.css"; // Import Font Awesome CSS
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const Footer = () => {
   return (
-    <footer className="left-0 right-0 flex justify-center text-1xl items-center text-white py-5 px-9 bottom-0">
+    <footer className="mt-auto text-white py-14 px-4 w-full">
       <div className="container mx-auto flex flex-col items-center gap-1">
         {/* Social Icons */}
         <div className="flex justify-center gap-6">

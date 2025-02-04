@@ -32,8 +32,7 @@ function Skills() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-purple-400">Mobile Development</h2>
           <ul className="list-disc list-inside space-y-2">
-            <li> React Native (Beginner Level) </li>
-            <li> Flutter (Beginner Level) </li>
+            <li> React Native | Flutter (Initial Level) </li>
           </ul>
         </section>
 
@@ -43,7 +42,7 @@ function Skills() {
           <ul className="list-disc list-inside space-y-2">
             <li> Google Maps, Places & Geolocation </li>
             <li> Firebase - Authentication, Realtime, Firestore & Storage </li>
-            <li> Heroku, Firebase, Vercel Hosting </li>
+            <li> Heroku, Firebase, Vercel - Hosting </li>
             <li> GitHub </li>
             <li> Figma for UI/UX design and prototyping </li>
           </ul>

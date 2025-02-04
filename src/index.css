@@ -5,7 +5,18 @@
 body {
     background-color: #913e37;
     color: #fff;
-    /* height: 100vh; */
-    /* overflow: hidden; */
 }
-  
+
+@layer base {
+    body {
+        @apply min-h-screen flex flex-col;
+    }
+
+    main {
+        @apply flex-grow;
+    }
+
+    footer {
+        @apply text-white py-4 px-6;
+    }
+}
