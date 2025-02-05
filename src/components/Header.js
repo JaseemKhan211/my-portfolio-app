@@ -4,14 +4,14 @@ import { NavLink } from "react-router-dom"; // Import NavLink for active link hi
 function Header() {
   return (
     <header>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-3">
+      <div className="max-w-7xl mx-auto px-4 py-3 sm:px-6 lg:px-8 mt-3">
         <div className="flex justify-center items-center h-16">
           {/* Navigation */}
           <nav>
             <ul className="hidden md:flex space-x-4">
               <li>
               <NavLink
-                  to="/"
+                  to="/about"
                   className={({ isActive }) =>
                     isActive
                       ? "px-4 py-2 bg-white text-black rounded-md text-base font-medium"
@@ -36,8 +36,11 @@ function Header() {
               <li>
                 <NavLink
                   to="/work"
-                  className="px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
-                  activeClassName="bg-gray-800"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "px-4 py-2 bg-white text-black rounded-md text-base font-medium"
+                      : "px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
+                  }
                 >
                   Work Experience
                 </NavLink>
@@ -45,8 +48,11 @@ function Header() {
               <li>
                 <NavLink
                   to="/project"
-                  className="px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
-                  activeClassName="bg-gray-800"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "px-4 py-2 bg-white text-black rounded-md text-base font-medium"
+                      : "px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
+                  }
                 >
                   Project
                 </NavLink>

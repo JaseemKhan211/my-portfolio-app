@@ -1,30 +1,52 @@
 function About() {
-    return (
-      <div className="max-w-4xl mx-auto">
-        <h2 className="text-center text-5xl font-extrabold mt-14 text-[#F8F1F1]">Hi, I'm Jaseem Khan</h2>
-        
-        <p className="text-center text-lg mt-6 leading-relaxed text-[#F8F1F1]">
-          A Software Developer specializing in Full Stack development. With expertise in crafting efficient, scalable, and user-friendly applications, I enjoy turning complex problems into simple, innovative solutions. My skill set spans front-end technologies, back-end frameworks, and database management, ensuring seamless end-to-end development. Dedicated to continuous learning and staying updated with industry trends, I strive to deliver impactful digital experiences that meet user and business needs.
-        </p>
+  return (
+    <div className="mx-auto p-6 text-white">
+      <div className="max-w-5xl mx-auto">
+        {/* Personal Information Section */}
+        <section className="mb-8">
+          <div className="flex items-center mb-4">
+            <div className="w-2 h-8 bg-[#333333] rounded mr-4"></div>
+            <h2 className="text-2xl font-semibold">Personal Information</h2>
+          </div>
+          <ul className="list-none space-y-4">
+            <li className="flex">
+              <strong className="w-40">Name:</strong>
+              <span>Jaseem Khan</span>
+            </li>
+            <li className="flex">
+              <strong className="w-40">Email:</strong>
+              <span>jaseemkhandev@gmail.com</span>
+            </li>
+          </ul>
+          <hr className="border-t-2 border-[#333333] mt-6" />
+        </section>
 
-        {/* Buttons */}
-        <div className="flex justify-center gap-6 mt-8">
-          <a
-            href="/pdf/Resume.pdf"
-            download
-            className="bg-[#333333] text-white py-2 px-4 rounded-lg hover:bg-blue-700"
-          >
-            Download Resume
-          </a>
-          <a
-            href="mailto:jaseemkhandev@gmail.com"
-            className="bg-[#333333] text-white py-2 px-4 rounded-lg hover:bg-green-700"
-          >
-            Send Email
-          </a>
-        </div>
+        {/* Education Section */}
+        <section>
+          <div className="flex items-center mb-4">
+            <div className="w-2 h-8 bg-[#333333] rounded mr-4"></div>
+            <h2 className="text-2xl font-semibold">Education</h2>
+          </div>
+          <ul className="list-none space-y-4">
+            <li className="flex">
+              <strong className="w-40">Matriculation:</strong>
+              <span>Govt. Irfan Boys Secondary School - Bio Science</span>
+            </li>
+            <li className="flex">
+              <strong className="w-40">Intermediate:</strong>
+              <span>Govt. Degree Boys College 5-L - Pre Engineering</span>
+            </li>
+            <li className="flex">
+              <strong className="w-40">Bachelors:</strong>
+              <span>
+                Sindh Madressatul Islam University - Computer Science & Information Technology
+              </span>
+            </li>
+          </ul>
+        </section>
       </div>
-    )
+    </div>
+  );
 }
 
 export default About;

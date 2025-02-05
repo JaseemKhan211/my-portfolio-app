@@ -2,23 +2,29 @@ import React from "react";
 
 function Skills() {
   return (
-    <div className="h-screen p-6 bg-[#913e37] text-white">
+    <div className="min-h-screen p-6 text-white">
       <div className="max-w-5xl mx-auto">
 
         {/* Front End Section */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-blue-400">Front End</h2>
+          <div className="flex items-center mb-4">
+            <div className="w-2 h-8 bg-[#333333] rounded mr-4"></div>
+            <h2 className="text-2xl font-semibold">Front End</h2>
+          </div>
           <ul className="list-disc list-inside space-y-2">
-            <li> React JS | Next JS </li>
-            <li> JavaScript ES6 </li>
+            <li> JavaScript ES6 | React JS | Next JS </li>
             <li> Ajax | jQuery (Initial Level) </li>
             <li> HTML5, Pug, CSS3, Tailwind CSS, MaterialUI, Bootstrap </li>
           </ul>
+          <hr className="border-t-2 border-[#333333] mt-6" />
         </section>
 
         {/* Back End Section */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-green-400">Back End</h2>
+          <div className="flex items-center mb-4">
+            <div className="w-2 h-8 bg-[#333333] rounded mr-4"></div>
+            <h2 className="text-2xl font-semibold">Back End</h2>
+          </div>
           <ul className="list-disc list-inside space-y-2">
             <li> SQL | PLSQL </li>
             <li> Oracle APEX | Oracle Database </li>
@@ -26,19 +32,27 @@ function Skills() {
             <li> REST Api architecture </li>
             <li> MongoDB </li>
           </ul>
+          <hr className="border-t-2 border-[#333333] mt-6" />
         </section>
 
         {/* Mobile Development Section */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-purple-400">Mobile Development</h2>
+          <div className="flex items-center mb-4">
+            <div className="w-2 h-8 bg-[#333333] rounded mr-4"></div>
+            <h2 className="text-2xl font-semibold">Mobile Development</h2>
+          </div>
           <ul className="list-disc list-inside space-y-2">
             <li> React Native | Flutter (Initial Level) </li>
           </ul>
+          <hr className="border-t-2 border-[#333333] mt-6" />
         </section>
 
         {/* Tools & Services Section */}
         <section>
-          <h2 className="text-2xl font-semibold mb-4 text-red-400">Tools & Services</h2>
+          <div className="flex items-center mb-4">
+            <div className="w-2 h-8 bg-[#333333] rounded mr-4"></div>
+            <h2 className="text-2xl font-semibold">Tools & Services</h2>
+          </div>
           <ul className="list-disc list-inside space-y-2">
             <li> Google Maps, Places & Geolocation </li>
             <li> Firebase - Authentication, Realtime, Firestore & Storage </li>
@@ -46,6 +60,7 @@ function Skills() {
             <li> GitHub </li>
             <li> Figma for UI/UX design and prototyping </li>
           </ul>
+          {/* <hr className="border-t-2 border-white mt-6" /> */}
         </section>
       </div>
     </div>

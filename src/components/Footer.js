@@ -3,7 +3,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const Footer = () => {
   return (
-    <footer className="mt-auto text-white py-14 px-4 w-full">
+    <footer className="mt-auto text-white py-6 px-4 w-full">
       <div className="container mx-auto flex flex-col items-center gap-1">
         {/* Social Icons */}
         <div className="flex justify-center gap-6">
@@ -11,7 +11,7 @@ const Footer = () => {
             href="https://github.com/JaseemKhan211"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-blue-400"
+            className="hover:text-[#333333]"
           >
             <i className="fab fa-github fa-2x"></i>
           </a>
@@ -19,7 +19,7 @@ const Footer = () => {
             href="https://stackoverflow.com/users/22384529/jaseem-khan?tab=profile"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-blue-400"
+            className="hover:text-[#333333]"
           >
             <i className="fab fa-stack-overflow fa-2x"></i>
           </a>
@@ -27,7 +27,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/jaseem-khan-dev"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-blue-400"
+            className="hover:text-[#333333]"
           >
             <i className="fab fa-linkedin fa-2x"></i>
           </a>
