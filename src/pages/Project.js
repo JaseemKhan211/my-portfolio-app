@@ -6,14 +6,14 @@ import { ArrowRight } from "lucide-react";
 
 const projects = [
   {
-    title: "MindMingle Quiz",
+    title: "MindMingle Quiz - Interactive Quiz App",
     description:
       "Real-time interactive quiz platform for admins and students, built with Node.js, MongoDB, and Socket.io for seamless functionality.",
     codeLink: "https://github.com/JaseemKhan211/MindMingle-Quiz",
     icon: "🔄",
   },
   {
-    title: "DineNear App",
+    title: "DineNear - Restaurant Finder App",
     description:
       "Effortlessly discover nearby restaurants with your ultimate dining companion, built with Flutter, Node.js, and MongoDB.",
     prototypeLink:
@@ -31,11 +31,12 @@ const projects = [
     icon: "🎓",
   },
   {
-    title: "Complaint Management System (CMS)",
+    title: "Complaint Management System - CMS",
     description:
-      "The Complaint Management System (CMS) helps students submit complaints easily. It helps the university handle and solve issues efficiently.",
+      "CMS helps students submit complaints easily. It helps the university handle and solve issues efficiently.",
     appLink:
       "https://apex.oracle.com/pls/apex/r/jasorcel/complaint-management-system-cms/login",
+    codeLink: "https://github.com/JaseemKhan211/PakWheels-Imported-Cars-DataScrap",
     erdDiagramLink:
       "https://lucid.app/lucidchart/3ca33e50-87af-4313-9dd1-fde5a65107c6/edit?viewport_loc=397%2C-892%2C1899%2C873%2C0_0&invitationId=inv_7239df70-3d5b-4aee-9014-6adc458fbc79",
     icon: "🛠️",
@@ -48,7 +49,7 @@ const projects = [
     icon: "🚗",
   },
   {
-    title: "Todo-App",
+    title: "Todo - Effortless Task Management App",
     description:
       "Effortless task management with seamless CRUD operations and real-time updates to keep you organized daily.",
     codeLink: "https://github.com/JaseemKhan211/Todo-App",
@@ -75,10 +76,11 @@ const ProjectCard = ({ project }) => {
             {project.codeLink && (
               <Button
                 variant="outline"
-                className="w-full flex items-center justify-between"
+                className="w-full flex items-center justify-between text-white bg-[#333333] hover:bg-gray-700 h-10"
                 as="a"
                 href={project.codeLink}
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 View Code <ArrowRight size={16} />
               </Button>
@@ -86,10 +88,11 @@ const ProjectCard = ({ project }) => {
             {project.appLink && (
               <Button
                 variant="outline"
-                className="w-full flex items-center justify-between"
+                className="w-full flex items-center justify-between text-white bg-[#333333] hover:bg-gray-700 h-10"
                 as="a"
                 href={project.appLink}
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Explore App <ArrowRight size={16} />
               </Button>
@@ -97,10 +100,11 @@ const ProjectCard = ({ project }) => {
             {project.prototypeLink && (
               <Button
                 variant="outline"
-                className="w-full flex items-center justify-between"
+                className="w-full flex items-center justify-between text-white bg-[#333333] hover:bg-gray-700 h-10"
                 as="a"
                 href={project.prototypeLink}
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 View Prototype <ArrowRight size={16} />
               </Button>
@@ -108,10 +112,11 @@ const ProjectCard = ({ project }) => {
             {project.frontendCodeLink && (
               <Button
                 variant="outline"
-                className="w-full flex items-center justify-between"
+                className="w-full flex items-center justify-between text-white bg-[#333333] hover:bg-gray-700 h-10"
                 as="a"
                 href={project.frontendCodeLink}
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Frontend Code <ArrowRight size={16} />
               </Button>
@@ -119,10 +124,11 @@ const ProjectCard = ({ project }) => {
             {project.backendCodeLink && (
               <Button
                 variant="outline"
-                className="w-full flex items-center justify-between"
+                className="w-full flex items-center justify-between text-white bg-[#333333] hover:bg-gray-700 h-10"
                 as="a"
                 href={project.backendCodeLink}
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Backend Code <ArrowRight size={16} />
               </Button>
@@ -130,10 +136,11 @@ const ProjectCard = ({ project }) => {
             {project.erdDiagramLink && (
               <Button
                 variant="outline"
-                className="w-full flex items-center justify-between"
+                className="w-full flex items-center justify-between text-white bg-[#333333] hover:bg-gray-700 h-10"
                 as="a"
                 href={project.erdDiagramLink}
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 ERD Diagram <ArrowRight size={16} />
               </Button>
