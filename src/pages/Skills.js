@@ -13,7 +13,10 @@ function Skills() {
           </div>
           <ul className="list-disc list-inside space-y-2">
             <li> JavaScript ES6 | React JS | Next JS </li>
+            <li> Latest ES Features </li>
+            <li> Libraries widely used Redux | Socket.io </li>
             <li> Ajax | jQuery (Initial Level) </li>
+            <li> Python (Mid Level) </li>
             <li> HTML5, Pug, CSS3, Tailwind CSS, MaterialUI, Bootstrap </li>
           </ul>
           <hr className="border-t-2 border-[#333333] mt-6" />
@@ -30,7 +33,7 @@ function Skills() {
             <li> Oracle APEX | Oracle Database </li>
             <li> Node JS | Express JS </li>
             <li> REST Api architecture </li>
-            <li> MongoDB </li>
+            <li> MongoDB | Mongoose </li>
           </ul>
           <hr className="border-t-2 border-[#333333] mt-6" />
         </section>
@@ -42,7 +45,7 @@ function Skills() {
             <h2 className="text-2xl font-semibold">Mobile Development</h2>
           </div>
           <ul className="list-disc list-inside space-y-2">
-            <li> React Native | Flutter (Initial Level) </li>
+            <li> React Native | Flutter (Mid Level) </li>
           </ul>
           <hr className="border-t-2 border-[#333333] mt-6" />
         </section>
