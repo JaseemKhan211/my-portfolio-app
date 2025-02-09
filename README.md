@@ -2,6 +2,8 @@
 
 A modern and elegant portfolio application showcasing skills, projects, certifications, and blogs, crafted with React.js and styled for a seamless user experience.
 
+---
+
 ## 🚀 Features
 
 - **Dynamic Navigation**: Intuitive and responsive navigation bar tailored for each page.
@@ -10,15 +12,13 @@ A modern and elegant portfolio application showcasing skills, projects, certific
 - **Certification Highlights**: A dedicated section for achievements.
 - **Responsive Design**: Mobile-first approach with smooth transitions.
 
+---
+
 ## 🛠️ Technologies Used
 
 - [![React.js][React.js-badge]][React.js-url]  
 - [![React Router][React Router-badge]][React Router-url]  
 - [![Tailwind CSS][Tailwindcss-badge]][Tailwindcss-url]  
-
----
-
-### Badge Links
 
 [React.js-badge]: https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=white
 [React.js-url]: https://reactjs.org/
@@ -28,6 +28,14 @@ A modern and elegant portfolio application showcasing skills, projects, certific
 
 [Tailwindcss-badge]: https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
 [Tailwindcss-url]: https://tailwindcss.com/  
+
+---
+
+## 🌍 Live Demo
+
+[**Visit the Live App**](https://your-portfolio-link.com) 🚀
+
+---
 
 ## 📂 Project Structure
 
@@ -45,7 +53,3 @@ Portfolio-App/
 │   └── index.js      # Entry Point
 ├── package.json      # Project dependencies and scripts
 └── README.md         # Project documentation
-
-## 🌍 Live Demo
-
-[**Visit the Live App**](https://your-portfolio-link.com) 🚀
