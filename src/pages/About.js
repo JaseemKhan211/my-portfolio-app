@@ -2,6 +2,7 @@ function About() {
   return (
     <div className="mx-auto p-6 text-white">
       <div className="max-w-5xl mx-auto">
+        
         {/* Personal Information Section */}
         <section className="mb-8">
           <div className="flex items-center mb-4">

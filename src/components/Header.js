@@ -1,7 +1,9 @@
 import React from "react";
-import { NavLink } from "react-router-dom"; // Import NavLink for active link highlighting
+import { NavLink, useLocation } from "react-router-dom";
 
 function Header() {
+  const location = useLocation();
+
   return (
     <header>
       <div className="max-w-7xl mx-auto px-4 py-3 sm:px-6 lg:px-8 mt-3">
@@ -9,8 +11,18 @@ function Header() {
           {/* Navigation */}
           <nav>
             <ul className="hidden md:flex space-x-4">
+              {location.pathname !== "/" && (
+                <li>
+                  <NavLink
+                    to="/"
+                    className="px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
+                  >
+                    Jaseem
+                  </NavLink>
+                </li>
+              )}
               <li>
-              <NavLink
+                <NavLink
                   to="/about"
                   className={({ isActive }) =>
                     isActive
@@ -60,26 +72,23 @@ function Header() {
               <li>
                 <NavLink
                   to="/certification"
-                  className="px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
-                  activeClassName="bg-gray-800"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "px-4 py-2 bg-white text-black rounded-md text-base font-medium"
+                      : "px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
+                  }
                 >
                   Certification
                 </NavLink>
               </li>
               <li>
                 <NavLink
-                  to="/achievement"
-                  className="px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
-                  activeClassName="bg-gray-800"
-                >
-                  Achievement
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
                   to="/blog"
-                  className="px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
-                  activeClassName="bg-gray-800"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "px-4 py-2 bg-white text-black rounded-md text-base font-medium"
+                      : "px-4 py-2 bg-[#333333] text-white rounded-md text-base font-medium hover:bg-gray-700 transition duration-200"
+                  }
                 >
                   Blog
                 </NavLink>
