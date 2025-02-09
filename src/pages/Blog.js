@@ -49,8 +49,8 @@ const Blog = () => {
             <div className="w-1 mr-1"></div>
             <div className="w-2 h-20 bg-[#333333] rounded mr-4"></div>
             <div>
-              <h2 className="text-xl text-[#333333] font-semibold">{blog.title}</h2>
-              <p className="text-white mb-2">{blog.description}</p>
+              <h2 className="text-xl text-white font-semibold">{blog.title}</h2>
+              <p className="text-white mb-3">{blog.description}</p>
               <a
                 href={blog.link}
                 target="_blank"
