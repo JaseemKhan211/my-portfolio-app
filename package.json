@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -48,9 +48,13 @@
     "postcss": "^8.5.1",
     "tailwindcss": "^3.4.17"
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "description": "A professional portfolio app showcasing my projects, skills, certifications, and blog posts",
   "main": "index.js",
-  "keywords": [],
+  "keywords": [
+    "React",
+    "tailwindcss",
+    "motion"
+  ],
   "author": "Jaseem Khan",
   "license": "ISC"
 }
