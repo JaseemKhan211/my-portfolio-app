@@ -61,5 +61,5 @@
   "engines": {
     "node": "22.x"
   },
-  "homepage": "/portfolio-app"
+  "homepage": "."
 }
