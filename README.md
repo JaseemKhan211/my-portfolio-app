@@ -33,7 +33,7 @@ A modern and elegant portfolio application showcasing skills, projects, certific
 
 ## 🌍 Live Demo
 
-[**Visit the Live App**](https://your-portfolio-link.com) 🚀
+[**Visit the Live App**](https://jaseemkhan.vercel.app/) 🚀
 
 ---
 
