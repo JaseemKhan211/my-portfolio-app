@@ -4,6 +4,18 @@ import { motion } from "framer-motion";
 function Certification() {
   const certifications = [
     {
+      title: "Software Engineering 101: Plan and Execute Better Software",
+      issuer: "Udemy",
+      issued: "July 2025",
+      url: "https://www.udemy.com/certificate/UC-8f2ce291-e416-41a1-beaa-a938be7bc47b/",
+    },
+    {
+      title: "Node.js, Express, MongoDB & More: The Complete Bootcamp 2024",
+      issuer: "Udemy",
+      issued: "Feb 2024",
+      url: "https://www.udemy.com/certificate/UC-8ebf6e08-d83d-4d3f-befa-3a3446eb5534/",
+    },
+    {
       title: "Introduction to SOLID Principles",
       issuer: "10Pearls University",
       issued: "Oct 2024",
@@ -20,12 +32,6 @@ function Certification() {
       issuer: "10Pearls University",
       issued: "Oct 2024",
       url: "https://10pearlsuniversity.org/view-certificate/?cid=10PUC-1d82b7bd7230aa58c831a4ff28d072b1205569f34dff5b9d114778040",
-    },
-    {
-      title: "Node.js, Express, MongoDB & More: The Complete Bootcamp 2024",
-      issuer: "Udemy",
-      issued: "Feb 2024",
-      url: "https://www.udemy.com/certificate/UC-8ebf6e08-d83d-4d3f-befa-3a3446eb5534/",
     },
     {
       title: "Introduction to RDBMS in SQL",

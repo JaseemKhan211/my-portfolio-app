@@ -1,7 +1,22 @@
 {
   "name": "portfolio-app",
   "version": "0.1.0",
+  "description": "A professional portfolio app showcasing my projects, skills, certifications, and blog posts",
+  "main": "index.js",
   "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "React",
+    "tailwindcss",
+    "motion"
+  ],
+  "author": "Jaseem Khan",
+  "license": "ISC",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
     "@shadcn/ui": "^0.0.4",
@@ -19,11 +34,11 @@
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17"
   },
   "eslintConfig": {
     "extends": [
@@ -37,29 +52,13 @@
       "not dead",
       "not op_mini all"
     ],
-    "development": [
+  "development": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.5.1",
-    "tailwindcss": "^3.4.17"
-  },
-  "description": "A professional portfolio app showcasing my projects, skills, certifications, and blog posts",
-  "main": "index.js",
-  "keywords": [
-    "React",
-    "tailwindcss",
-    "motion"
-  ],
-  "author": "Jaseem Khan",
-  "license": "ISC",
   "engines": {
     "node": "22.x"
-  },
-  "homepage": "/portfolio-app"
+  }
 }

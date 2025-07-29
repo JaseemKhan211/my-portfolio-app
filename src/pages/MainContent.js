@@ -4,10 +4,10 @@ function MainContent() {
         <h2 className="text-center text-5xl font-extrabold mt-14 text-[#F8F1F1]">Hi, I'm Jaseem Khan</h2>
         
         <p className="text-center text-lg mt-6 leading-relaxed text-[#F8F1F1]">
-          A Software Developer specializing in Full Stack development. With expertise in crafting efficient, scalable, and user-friendly 
-          applications, I enjoy turning complex problems into simple, innovative solutions. My skill set spans front-end technologies, 
-          back-end frameworks, and database management, ensuring seamless end-to-end development. Dedicated to continuous learning and 
-          staying updated with industry trends, I strive to deliver impactful digital experiences that meet user and business needs.
+          A Software Engineer specializing in Full Stack development. I build scalable, secure, and user-centric applications by combining strong architectural design with clean, efficient code. 
+          From front-end interfaces to back-end systems and database integration, I ensure smooth end-to-end functionality. 
+          With hands-on experience in modern frameworks and enterprise-grade technologies, I focus on delivering high-performance solutions that align with real-world business needs. 
+          Passionate about continuous learning, I stay updated with evolving trends to craft impactful and future-ready digital products.
         </p>
 
         {/* Buttons */}
