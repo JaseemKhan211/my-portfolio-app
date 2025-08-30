@@ -23,7 +23,7 @@ const Work = () => {
             <div className="bg-white shadow-lg p-6 rounded-lg">
               <h2 className="text-xl text-black font-semibold">Private Client</h2>
               <p className="text-sm text-gray-500 mb-2">Dubai, United Arab Emirates – Remote</p>
-              <p className="text-sm text-gray-500 mb-2">Contract | February 2025 – August 2025</p>
+              <p className="text-sm text-gray-500 mb-2">Contract | March 2025 – August 2025</p>
               <h3 className="font-medium text-black text-lg">Software Engineer</h3>
               <p className="mt-2 text-black">
                 Collaborated remotely with a Dubai-based client to design and develop a secure Privileged Access Management (PAM) system using a monorepo architecture. 
@@ -47,16 +47,11 @@ const Work = () => {
             <div className="bg-white shadow-lg p-6 rounded-lg">
               <h2 className="text-xl text-black font-semibold">Software Channel</h2>
               <p className="text-sm text-gray-500 mb-2">Karachi, Pakistan - On-site</p>
-              <p className="text-sm text-gray-500 mb-2">May 2022 - Present</p>
+              <p className="text-sm text-gray-500 mb-2">Jun 2024 - Present</p>
               <h3 className="font-medium text-black text-lg">Software Developer</h3>
               <p className="mt-2 text-black">
-                In my role, I develop ERP systems using Oracle APEX and Oracle Database, 
-                with expertise in SQL queries, PL/SQL procedures, functions, and triggers 
-                to automate tasks, enhance efficiency, and support decision-making through robust RDBMS capabilities. 
-                I integrate modern JavaScript libraries and frameworks to improve client-side functionality, 
-                complementing the power of Oracle APEX. My approach includes implementing secure and dynamic 
-                data exchanges through RESTful APIs, ensuring scalable and innovative system designs tailored to 
-                meet diverse business requirements.
+                In my role, I develop ERP systems using Oracle APEX and Oracle Database. I work with SQL, PL/SQL (procedures, functions, triggers) to automate tasks and improve efficiency. 
+                I also use JavaScript frameworks to enhance client-side features and integrate RESTful APIs for secure and scalable data exchange, delivering systems that meet diverse business needs.
               </p>
             </div>
           </div>
@@ -79,11 +74,11 @@ const Work = () => {
             <div className="bg-white shadow-lg p-6 rounded-lg">
               <h2 className="text-xl text-black font-semibold">Stech Solution</h2>
               <p className="text-sm text-gray-500 mb-2">Pakistan - Remote</p>
-              <p className="text-sm text-gray-500 mb-2">Contract | October 2021 - January 2022</p>
+              <p className="text-sm text-gray-500 mb-2">Contract | December 2023 - February 2024</p>
               <h3 className="font-medium text-black text-lg">React Web & Mobile Dev Internee</h3>
               <p className="mt-2 text-black">
-                In my role, I created web and mobile applications using React.js and React Native. 
-                I focused on creating engaging and user-friendly designs supported by Firebase integration.
+                During my internship, I worked on developing web and mobile applications using React.js, React Native, JavaScript, and Firebase. 
+                My responsibilities included building and deploying full-stack applications for both web and mobile platforms, developing hybrid mobile apps with React Native, and creating responsive, user-friendly designs.
               </p>
             </div>
           </div>
